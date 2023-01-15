@@ -117,7 +117,7 @@ function casuale() {
   }
 
 
-
+  document.getElementById("streak").innerHTML = "Streak = " + streak;
 
 
 }
