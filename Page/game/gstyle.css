@@ -132,7 +132,7 @@ body{
   font-size: 75px;
   top: -50px;
   font-family: 'Fredoka One', cursive;
-  color: #fff4e6;
+    color:#854442;
   text-align: right;
 }
 
@@ -141,7 +141,7 @@ body{
   font-size: 75px;
   top: -50px;
   font-family: 'Fredoka One', cursive;
-  color: #fff4e6;
+  color: #854442;
   left: calc(50% - 75px);
 }
 
@@ -154,7 +154,7 @@ body{
 }
 
 .score{
-  color:#fff4e6;
+  color:#854442;
   font-size: 90px;
   font-family: 'Fredoka One', cursive;
   position: relative;
@@ -169,6 +169,32 @@ body{
   color: #ffffff;
   text-align: center;
   margin-top: -20px;
+}
+
+.streak {
+  color:#854442;
+  font-size: 70px;
+  font-family: 'Fredoka One', cursive;
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  text-align: center;
+}
+.back{
+
+  color:#fff4e6;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: #854442;
+  border: solid #4b3832;
+  position: absolute;
+  right: 10px;
+  top: 850px;
+
 }
 
 
