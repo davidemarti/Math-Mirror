@@ -10,6 +10,10 @@ app.use(express.static(path.join(__dirname, 'Page/home'))); //stringa per il css
 app.use(express.static(path.join(__dirname, 'Page/game'))); //stringa per il css pubblico/visualizzabile
 
 app.get('/', (req, res) => { 
+    res.sendFile(path.join(`${__dirname}/index.html`)); //Splash Screen
+});
+
+app.get('/presentation', (req, res) => { 
     res.sendFile(path.join(`${__dirname}/Page/presentation/presentation.html`)); //pagina di presentazione
 });
 
