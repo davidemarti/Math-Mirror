@@ -96,3 +96,8 @@ body{
 .tooltip:hover .messaggio {
   visibility: visible;
 }
+
+.version{
+  color: #4b3832;
+  font-family: 'Fredoka One', cursive;
+}
